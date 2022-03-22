@@ -154,6 +154,7 @@
 ![viphp](viphp.png)
 
 - Checked `http://<Public_domain_or_IP>/todo_list.php` on my browser to confirm if everything is working as expected and it was. See screenshot below:
+
 ![todocomplete](list.png)
 
 **LEMP Stack successfully deployed**
