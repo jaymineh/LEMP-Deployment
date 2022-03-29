@@ -1,4 +1,4 @@
-# LEMP Stack
+# LEMP Stack Deployment
 
 This is a project where I deployed a LEMP (Linux, Nginx, MySQL & PHP) web stack.
 
