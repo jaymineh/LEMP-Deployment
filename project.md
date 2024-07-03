@@ -109,6 +109,7 @@
 ![lempdns](images/lempdns.png)
 
     - Edit test index.html file with randomly generated code, save config and reload nginx. After this has been done, check the browser using the public IP and port.
+
 ![image](https://github.com/jaymineh/P2_LEMP_Deployment/assets/91850543/efcda90b-43e2-46fe-a4e0-be792bd66bfe)
 
 
@@ -147,6 +148,7 @@
     - Exit the SQL shell and ran `mysql -u example_user -p` to login with the just created account `example_user` to test the access. Logged in successfully.
 
 - Inside the MySQL shell, run `SHOW DATABASES;` to show the list of databases.
+
 ![image](https://github.com/jaymineh/P2_LEMP_Deployment/assets/91850543/15ddb49b-247f-4893-8723-64ad34b7a314)
 
 
@@ -166,8 +168,6 @@
 ![todocomplete](images/list.png)
 
 **LEMP Stack successfully deployed**
-
->I was constantly running into the error below even with several trials following the right procedures. You would notice some of the screenshots showing other user accounts and databases created as I tried several attempts before I finally got through. I'm suspecting it was the password I used because I have been using a particular password throughout. The moment I changed the password to something different and decided to start over from scratch (for like the 4th time) it went through.![errormsg](images/errormsg.png)
 
 
 
