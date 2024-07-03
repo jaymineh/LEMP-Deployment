@@ -30,7 +30,8 @@
 
 - Tried accessing the web server from a brower using the public IP. The result was a welcome to nginx screen as seen below:
 
-![nginxbrowser](images/nginxbrowser.png)
+![image](https://github.com/jaymineh/P2_LEMP_Deployment/assets/91850543/5d3d1927-cba0-4905-8422-19104cc13277)
+
 
 **Step 2 - Installing MySQL**
 ---
