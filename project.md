@@ -108,6 +108,10 @@
     - Checked via public DNS on my browser:
 ![lempdns](images/lempdns.png)
 
+    - Edit test index.html file with randomly generated code, save config and reload nginx. After this has been done, check the browser using the public IP and port.
+![image](https://github.com/jaymineh/P2_LEMP_Deployment/assets/91850543/efcda90b-43e2-46fe-a4e0-be792bd66bfe)
+
+
 **Step 5 - Testing PHP with nginx**
 ---
 
@@ -122,7 +126,8 @@
 
 - After saving the index.php file, I used my browser to see if the page is up and running by running ``http://`server_domain_or_IP`/index.php``. Page is working great! See result below:
 
-![phpconfirm](images/phpconfirm.png)
+![image](https://github.com/jaymineh/P2_LEMP_Deployment/assets/91850543/015addb4-22b1-4cd4-8aab-15ec25f219f6)
+
 
 - Ran `sudo rm /var/www/your_domain/index.php` to remove php page after confirmation. This is done as the php page displays sensitive information about the PHP environment and ubuntu server.
 ![rmlemp](images/rmlemp.png)
@@ -142,13 +147,15 @@
     - Exit the SQL shell and ran `mysql -u example_user -p` to login with the just created account `example_user` to test the access. Logged in successfully.
 
 - Inside the MySQL shell, run `SHOW DATABASES;` to show the list of databases.
-![list](images/list.png)
+![image](https://github.com/jaymineh/P2_LEMP_Deployment/assets/91850543/15ddb49b-247f-4893-8723-64ad34b7a314)
+
 
 - Created a test table called `todo_list` from the MySQL console. Ran `CREATE TABLE example_database.todo_list (item_id INT AUTO_INCREMENT, content VARCHAR(255), PRIMARY KEY(item_id));`
 
     - Ran `INSERT INTO example_database.todo_list (content) VALUES ("My first important item");` to insert rows of data into the test table. Repeated until there was enough.
 
     - Ran `SELECT * FROM example_database.todo_list;` to confirm that data entered was saved to the table. Save was successful. Exited the SQL console after. See below report.
+
 ![savedata](images/savedata.png)
 
 - Ran `vi /var/www/projectLEMP/todo_list.php` to create a new php file in the web root directory. The `todo_list.php` script will connect to MySQL and query for content.
